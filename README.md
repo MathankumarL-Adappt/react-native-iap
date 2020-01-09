@@ -66,7 +66,8 @@ react-native-iap
 
 Quick News
 ----------
-- For android google app licensing plz add below permission in app mainfest file
+- For android google app licensing Please add below permission on app's main Androidmanifest.xml file
+
 - `<uses-permission android:name="com.android.vending.CHECK_LICENSE" />` 
 - `react-native-iap@4.0.0` has been released. You can see [#716](https://github.com/dooboolab/react-native-iap/pull/716) for updates.
 - ~~For early stages, You can install pre-releases version by running `npm install --save reqct-native-iap@next`~~
