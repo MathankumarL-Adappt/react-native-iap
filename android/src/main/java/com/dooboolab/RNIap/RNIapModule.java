@@ -66,7 +66,7 @@ public class RNIapModule extends ReactContextBaseJavaModule implements Purchases
 
     private List<SkuDetails> skus;
 
-    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqeWqMhmDTD+CSC1PXG31EaNlmtWkzLPyltSTADyrw3r13wDsv86u4GK9fGaleqWsfC1E7KSyzLwB+a3+F22UXnfombpXsuGKbExSQydQksk/shqA/YyQuF8SXIREx9w5TjK+H+pTSFhYOCahWjdDbrj4InTUEPJdrKTfCwLpe0/mLALKpAFH8YAE4Rn4eYuC6s1yuosj8I/YsJy0CIAH8D+8ebNCPDwEo9KIgmXMF4nrn3lOLtWm5jiS+X48x18Q9bmN7QUyFX0cPY35VHqHaxWIaHCxFP51VfdaRX1Wwd5m2oQPoynLsJnultsH145bp4r4gC5UN4hm4CRttkQl8wIDAQAB";
+    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuH+qS0IHNhL4Ai4Ey+qJEveykiOHxAtwBGZWD5S+bRzYLA6X1stm7IBDbZnjNCRDpQ6QIlaT5Da2kyIlsqO6w3oCFuxoXaRxYn80TGcTEQWKXuokIb8isI13LNjjFvab6ZLxQpFnGXSxF6mQT0t2qHl64xyPjWiSo2awjMQN5lI7i7kVtovTc9A4N7ODBczrGIEosS9amOfXdkZFiO3GDUEztrD7wsteIDDHN7l3BjQMCBaPcfTMxDFdq6RtgngYejPmyd9rUXgKsLPC3YVPfgNUSl14H0n6lLFrFzNjcWicfFStBUnWM3l4wfmLyur/aTxxFt3ZCJ0eD47J0ONL0QIDAQAB";
 
     // Generate your own 20 random bytes, and put them here.
     private static final byte[] SALT = new byte[]{
